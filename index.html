@@ -387,6 +387,9 @@
             font-family: 'hiragino',sans-serif;
             background-color:#fff ;
         }
+        .main-color{
+            color:  #343A40
+        }
         /* Commons */
         .image-full{
             width:100%;
@@ -439,6 +442,9 @@
                 margin-left:10px;
         }
         .top-nav .nav-items .nav-item a{
+            color:#707070
+        }
+        .top-nav a{
             color:#707070
         }
 
@@ -582,6 +588,49 @@
             padding-top: 5px;
         }
 
+        .lenovo-btn{
+           color:#343A40;
+            padding: 8px 15px;
+            border: 1px solid #343A40;
+            border-radius: 4px;
+            background: #fff;
+        }
+        .lenovo-btn svg{
+            margin-right:10px;
+            fill: #585b5e;
+            width:17px;
+            height: 17px;
+        }
+
+        .microsoft-team table{
+            border:1px solid #DEE2E6
+        }
+        .microsoft-team table td{
+            border:1px solid #DEE2E6;
+            padding:30px;
+            color: #707070;
+
+        }
+
+
+        .download-pdf {
+            width:100%;
+            margin: 60px 0 ;
+            padding:8px 15px;
+            border: 1px solid #DEE2E6;
+        }
+        .download-pdf img {
+            padding:15px;
+        }
+        .download-pdf  .desc {
+            color:#707070;
+            line-height: 2;
+        }
+        .download-pdf  .desc b{
+            color: #343A40;
+            font-size: 25px;
+        }
+
 
 
 
@@ -599,8 +648,8 @@
         <li class="nav-item"><a href="">キャンペーン</a></li>
         <li class="nav-item"><a href="">パートナーサービス</a></li>
         <li class="nav-item"><a href="">パートナーサービス</a></li>
-        <li class="nav-item ml-auto"><a  href="tel:012148333">0120-148-333</a></li>
     </ul>
+    <div class="col-4"><a  href="tel:012148333">0120-148-333</a></div>
 </nav>
 <div class="page-container">
     <div class="container">
@@ -717,8 +766,12 @@
             <div class="col-6 pb-5">
                 <img class="lenovo-pc" src="./img/lenovo-pc.png" alt="">
             </div>
-            <div class="col-6 pb-5">
-
+            <div class="col-6 pb-5 main-color">
+                <h3 class="mb-4" style="font-size: 13px;">Microsoft Teams 活用編（動画で見る活用ガイド）</h3>
+                <p  class="mb-5" style="font-size: 13px;line-height: 2;">Microsoft 365 がいつでもどこでもあなたをサポート。 <br>
+                    Microsoft Teams で いつでもチームメンバーと連携できるから、 <br>
+                    外回りの業務もスマートに。</p>
+                <button class="lenovo-btn d-flex justify-content-around align-items-center">  <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-alt-circle-right" class="svg-inline--fa fa-arrow-alt-circle-right fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256zm72 20v-40c0-6.6 5.4-12 12-12h116v-67c0-10.7 12.9-16 20.5-8.5l99 99c4.7 4.7 4.7 12.3 0 17l-99 99c-7.6 7.6-20.5 2.2-20.5-8.5v-67H140c-6.6 0-12-5.4-12-12z"></path></svg> このビデオを見る</button>
             </div>
             <div class="lenovo-pc-group col-3 pt-3">
                 <img class="group-img" src="./img/pc-1.png" alt="">
@@ -741,7 +794,21 @@
                 <p>会議の共有を簡単に行えます</p>
             </div>
         </div>
-        <div class="row main-bg-color pl-5 pr-5">
+        <div class="microsoft-team main-bg-color row px-5">
+            <div class="col-12 main-title text-center w-100">
+                リモートワーク スターター プラン
+            </div>
+            <div class="col-12 w-100  text-center mb-5">
+                <table class="w-100">
+                    <tr>
+                        <td>「Microsoft Teams」と「OneDrive for Business」を含む <br> ​Microsoft 365 の中堅・中小企業向け新プラン</td>
+                        <td>  1ユーザーあたり月額399円（税込み） <br>
+                            ユーザー数 ユーザー数</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row main-bg-color px-5">
             <div class="col-12 pb-4">
                 <div class="article-title mb-4">
                     <h2 class="title">Lenovo PCに追加できるリモートワーク機能</h2>
@@ -768,6 +835,17 @@
                 <img class="group-img" src="./img/remote-4.png" alt="">
                 <h3>社内報</h3>
                 <p>会社のイマを伝えるデジタル社内報は組織の一体感を醸成します。</p>
+            </div>
+        </div>
+        <div class="row main-bg-color px-5">
+            <div class="download-pdf d-flex align-items-center">
+                    <img src="./img/guide.png" alt="">
+                    <div class="desc flex-grow-2">
+                        <b>中小企業のためのテレワークガイド</b><br>テレワークに必要な基礎知識はこの1冊でOK。メリットや導入方法をご紹介します。
+                    </div>
+                    <div class="ml-auto px-3">
+                        <button class="lenovo-btn d-flex justify-content-around align-items-center">  <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-alt-circle-right" class="svg-inline--fa fa-arrow-alt-circle-right fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256zm72 20v-40c0-6.6 5.4-12 12-12h116v-67c0-10.7 12.9-16 20.5-8.5l99 99c4.7 4.7 4.7 12.3 0 17l-99 99c-7.6 7.6-20.5 2.2-20.5-8.5v-67H140c-6.6 0-12-5.4-12-12z"></path></svg> PDFはこちら</button>
+                    </div>
             </div>
         </div>
     </div>
